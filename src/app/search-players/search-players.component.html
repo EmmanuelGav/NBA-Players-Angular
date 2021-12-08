@@ -1,0 +1,9 @@
+<h2>Search NBA Players with heights</h2>
+<input type="text" name="inches" [(ngModel)]="inches" id="inches" placeholder="Enter height in inches">
+
+<ul>
+    <li *ngFor="let player of players | search:inches">
+        <p *ngIf="player.message==null">{{player.first_name}} {{player.last_name}}</p>
+        <p *ngIf="player.message!=null"><b>No matches found</b></p>
+    </li>
+</ul>
