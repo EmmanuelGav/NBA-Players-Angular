@@ -7,7 +7,7 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app-redux';
+  title = 'nba-players';
   name: any;
 
   constructor(

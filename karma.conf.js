@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/app-redux'),
+      dir: require('path').join(__dirname, './coverage/nba-players'),
       subdir: '.',
       reporters: [
         { type: 'html' },

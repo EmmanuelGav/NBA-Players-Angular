@@ -1,5 +1,5 @@
 {
-  "name": "app-redux",
+  "name": "nba-players",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
